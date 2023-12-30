@@ -1,4 +1,4 @@
-# Please don't use this. This is just for education purpose.
+# Please don't use this. This is just for educational purposes.
 
 # :warning: Please use this at your own risk
 
@@ -18,3 +18,8 @@ By default the folder that will be locked is `~/Data`. You can add or remove the
 Make sure to also add the folder in `antivirus.py` if you want to unlock it.
 
 ## Demonstration
+
+
+
+https://github.com/aayushchugh/virus/assets/69336518/ab83988b-b87c-4ab7-a0a8-ac3b26ed9a78
+
