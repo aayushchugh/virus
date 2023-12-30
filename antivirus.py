@@ -25,4 +25,13 @@ def unlock_dir(directory):
     os.remove(f"{directory}.zip.aes")
     os.remove(f"{directory}.zip")
 
-unlock_dir("test")
+
+# unlock the directory
+dirs_to_unlock = ["Test"]
+# dirs_to_unlock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
+
+for dir in dirs_to_unlock:
+    root_dir = os.path.expanduser('~')
+    file_to_unlock = os.path.join(root_dir, dir)
+    if (file_to_unlock):
+      unlock_dir(file_to_unlock)
