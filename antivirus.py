@@ -27,7 +27,7 @@ def unlock_dir(directory):
 
 
 # unlock the directory
-dirs_to_unlock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
+dirs_to_unlock = ["Data"]
 
 for dir in dirs_to_unlock:
     root_dir = os.path.expanduser('~')
