@@ -27,7 +27,6 @@ def unlock_dir(directory):
 
 
 # unlock the directory
-dirs_to_unlock = ["Test"]
 dirs_to_unlock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
 
 for dir in dirs_to_unlock:
